@@ -1,2 +1,2 @@
-#  Desenvolvimento Front-End d e  Sites (Iniciantes)
+#  Desenvolvimento Front-End de  Sites (Iniciantes)
 
