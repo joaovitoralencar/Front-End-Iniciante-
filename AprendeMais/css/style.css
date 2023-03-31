@@ -1,0 +1,281 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.header{
+	width: 100%;
+	height: 20vh;
+	background-color: #44A1A0;	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; /* alinnha o primeiro item totalmente a esquerda, e o segundo totalmente a direita */
+	align-items: center; /* alinha os itens na horizontal totalmente centralizado */
+}
+
+.logo{
+	width: 20%;
+	height: 16vh;
+	margin-left: 5vh;
+}
+
+.logo img{
+	height: 100%;
+}
+
+.menu{
+	width: 40%;
+	height: 16vh;
+	margin-right: 5vh;
+
+	display: flex;	
+	flex-direction: column;	
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.icones{
+	width: 40%;
+	height: 7vh;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+.icones img{
+	height: 60%;
+	margin-left: 3vh
+}
+
+.nav{
+	width: 100%;
+	height: 7vh;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.nav a{
+	color: white;
+	font-size: 18px;
+	margin-right: 20px;
+	text-decoration: none;
+
+}
+
+.nav a:hover{
+	color: #2b4141;
+	transition: 0.5s;
+	opacity: 0.7;
+}
+
+.nav span{
+	color: white;
+	font-size: 22px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+.barra{
+	width: 100%;
+	height: 1vh;
+	background-color: #2B4141;
+}
+
+.banner{
+	width: 100%;
+	height: auto;
+}
+
+.banner img{
+	width: 100%;
+}
+
+.conteudo{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.text{
+	width: 100%;
+	height: auto;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	text-align: center;
+	font-size: 24px;
+}
+
+.categorias{
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.cat-item{
+	width: 22%;
+	height: auto;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+	margin-bottom: 3vh;
+}
+
+.cat-item p{
+	color: #E4572E;
+	text-align: center;
+	margin-top: 1vh;
+}
+
+.circulo{
+	width: 25vh;
+	height: 25vh;
+	border-radius: 50%;	
+	background-color: #2B4141;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 10px 24px 9px rgba(0,0,0,0.43);
+	-webkit-box-shadow: 1px 10px 24px 9px rgba(0,0,0,0.43);
+	-moz-box-shadow: 1px 10px 24px 9px rgba(0,0,0,0.43);
+}
+
+.circulo img{
+	width: 50%;
+}
+
+.titulo{
+	width: 100%;
+	height: 5vh;
+	color: #44A1A0;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.titulo hr{
+	border: 1px solid #44A1A0;
+	width: 75%;
+}
+
+.areas{
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3vh;
+}
+
+.area-item{
+	width: 30%;
+	height: 40vh;
+	background-color: #E4572E;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 2vh;
+	overflow: hidden;
+	box-shadow: 1px 10px 24px 9px rgba(0,0,0,0.43);
+	-webkit-box-shadow: 1px 10px 24px 9px rgba(0,0,0,0.43);
+	-moz-box-shadow: 1px 10px 24px 9px rgba(0,0,0,0.43);
+}
+
+.area-item img{
+	width: 100%;
+	height: 30vh;
+}
+
+.mais{
+	text-decoration: none;
+	color: #E4572E;
+	margin-top: 2vh;
+	align-self: flex-end;	
+}
+
+footer{
+	margin-top: 20px;
+	background-color: #44A1A0;
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rod-dir{
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rod-dir img{
+	width: 40%;
+	height: auto;
+	margin-right: 150px;
+}
+
+.rod-esq{
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.contato{
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.img-1{
+	width: 15%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.img-2{
+	width: 15%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.img-3{
+	width: 15%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.img-4{
+	width: 15%;
+	height: auto;
+	margin-bottom: 30px;
+	margin-right: 15px;
+}
+
+.dev p{
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+	margin-right: 25px;
+}
